@@ -6,7 +6,7 @@ Summary:	A collection of ASN.1-based protocols modules
 URL:		https://pypi.org/project/pyasn1-modules/
 License:	BSD
 Group:		Development/Python
-BuildRequires:	python
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildSystem:	python
 BuildArch:	noarch
 
